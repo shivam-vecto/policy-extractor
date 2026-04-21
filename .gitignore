@@ -1,0 +1,273 @@
+# ====================
+# Python & Virtual Environment
+# ====================
+
+# Virtual Environment
+venv/
+venv.bak/
+.venv/
+
+# Python compiled files
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+*.egg
+*.egg-info/
+dist/
+build/
+*.pyc
+*.pyo
+.pytest_cache/
+
+# Distribution / packaging
+.Python
+develop-eggs/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# ====================
+# Project Specific - Uploaded Files
+# ====================
+
+# Uploaded PDF files (keep the directory structure but not the files)
+uploads/*.pdf
+uploads/*.PDF
+uploads/**/*.pdf
+uploads/**/*.PDF
+!uploads/.gitkeep
+
+# Processed files
+storage/
+processed/
+output/
+
+# ====================
+# Environment & Configuration
+# ====================
+
+# Environment variables (contains API keys!)
+# .env
+# .env.local
+# .env.production
+# .env.development
+# .env.test
+
+# Configuration files with secrets
+config.local.json
+config.local.yaml
+secrets.json
+secrets.yaml
+
+# ====================
+# Logs & Databases
+# ====================
+
+# Log files
+*.log
+logs/
+*.log.*
+app.log
+error.log
+access.log
+
+# Database files
+*.db
+*.sqlite
+*.sqlite3
+*.db-journal
+
+# ChromaDB (if used)
+chroma_db/
+chroma_server/
+.chroma/
+
+# Qdrant storage
+qdrant_storage/
+
+# ====================
+# IDE & Editor Files
+# ====================
+
+# Visual Studio Code
+.vscode/
+*.code-workspace
+.history/
+
+# PyCharm
+.idea/
+*.iml
+*.iws
+.out/
+
+# Sublime Text
+*.sublime-project
+*.sublime-workspace
+
+# Vim
+*.swp
+*.swo
+*~
+.~*
+
+# Emacs
+*~
+\#*\#
+/.emacs.desktop
+/.emacs.desktop.lock
+
+# Jupyter Notebook
+.ipynb_checkpoints/
+*.ipynb
+
+# ====================
+# Operating System Files
+# ====================
+
+# Windows
+Thumbs.db
+Thumbs.db:encryptable
+ehthumbs.db
+ehthumbs_vista.db
+*.dll
+*.exe
+*.pif
+*.scr
+*.com
+*.lnk
+desktop.ini
+$RECYCLE.BIN/
+
+# macOS
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+*.icloud
+.AppleDouble
+.LSOverride
+Icon
+._*
+
+# Linux
+.directory
+*.pid
+*.lock
+
+# ====================
+# Testing & Coverage
+# ====================
+
+# pytest
+.pytest_cache/
+.coverage
+.coverage.*
+.coverage.*.xml
+htmlcov/
+.tox/
+.tox/
+*.cover
+*.py,cover
+.hypothesis/
+.pytest_cache/
+
+# unittest
+.cache/
+nosetests.xml
+coverage.xml
+*.cover
+
+# ====================
+# Documentation
+# ====================
+
+# Sphinx documentation
+docs/_build/
+docs/_static/
+docs/_templates/
+
+# MkDocs
+site/
+
+# ====================
+# Backup & Temp Files
+# ====================
+
+# Backup files
+*.bak
+*.backup
+*.tmp
+*.temp
+*.swp
+*.swo
+
+# Archive files
+*.zip
+*.tar
+*.gz
+*.rar
+*.7z
+
+# ====================
+# Docker
+# ====================
+
+.docker/
+docker-compose.override.yml
+docker-compose.*.yml
+*.tar.gz
+*.pid
+
+# ====================
+# API Keys & Credentials
+# ====================
+
+# Never commit these!
+*.key
+*.pem
+*.crt
+*.p12
+.secrets/
+credentials.json
+service-account.json
+
+# ====================
+# Miscellaneous
+# ====================
+
+# Python type checking
+.mypy_cache/
+.dmypy.json
+dmypy.json
+.pyre/
+.pytype/
+
+# Profiling data
+.prof
+*.prof
+
+# Notebook checkpoints
+.ipynb_checkpoints/
+
+# Mac resource forks
+._*
+
+# Azure Functions
+local.settings.json
+bin/
+obj/
+
+# Serverless
+.serverless/
