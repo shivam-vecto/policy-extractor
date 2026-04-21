@@ -58,11 +58,11 @@ output/
 # ====================
 
 # Environment variables (contains API keys!)
-# .env
-# .env.local
-# .env.production
-# .env.development
-# .env.test
+.env
+.env.local
+.env.production
+.env.development
+.env.test
 
 # Configuration files with secrets
 config.local.json

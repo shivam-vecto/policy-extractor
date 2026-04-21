@@ -155,7 +155,7 @@ def extract_policy_data_with_gemini(pdf_text: str) -> dict:
     
     return {"error": "All Gemini models failed. Please check your API key and permissions."}
 
-@app.post("/extract")
+@app.post("/extract-policy-data")
 async def extract_policy(file: UploadFile = File(...)):
     """Upload a policy PDF and extract data"""
     
@@ -205,7 +205,7 @@ async def root():
         "message": "Policy PDF Extractor API",
         "version": "1.0.0",
         "endpoints": {
-            "POST /extract": "Upload PDF and extract policy data",
+            "POST /extract-policy-data": "Upload PDF and extract policy data",
             "GET /health": "Check API health",
             "GET /models": "List available models"
         }
